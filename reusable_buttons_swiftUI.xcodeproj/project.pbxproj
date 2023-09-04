@@ -11,6 +11,16 @@
 		8E99286B2AA5E781002D8729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E99286A2AA5E781002D8729 /* ContentView.swift */; };
 		8E99286D2AA5E787002D8729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E99286C2AA5E787002D8729 /* Assets.xcassets */; };
 		8E9928702AA5E787002D8729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E99286F2AA5E787002D8729 /* Preview Assets.xcassets */; };
+		8E9928772AA5E7D9002D8729 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9928762AA5E7D9002D8729 /* MainButtonView.swift */; };
+		8E99287A2AA5E84E002D8729 /* DownloadIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9928792AA5E84E002D8729 /* DownloadIcon.swift */; };
+		8E99287C2AA5E873002D8729 /* ArrowInCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E99287B2AA5E873002D8729 /* ArrowInCircleView.swift */; };
+		8E99287E2AA5E898002D8729 /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E99287D2AA5E898002D8729 /* CircleProgressBar.swift */; };
+		8E9928802AA5E8AC002D8729 /* DownloadWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E99287F2AA5E8AC002D8729 /* DownloadWarningView.swift */; };
+		8E9928822AA5E8C0002D8729 /* SpinningCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9928812AA5E8C0002D8729 /* SpinningCircleView.swift */; };
+		8E9928852AA5E90C002D8729 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9928842AA5E90C002D8729 /* Color+Extension.swift */; };
+		8E9928872AA5E929002D8729 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9928862AA5E929002D8729 /* Image+Extensions.swift */; };
+		8E9928892AA5E93C002D8729 /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9928882AA5E93C002D8729 /* Font+Extensions.swift */; };
+		8E99288C2AA5E96E002D8729 /* DownloadProgressDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E99288B2AA5E96E002D8729 /* DownloadProgressDisplayable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		8E99286A2AA5E781002D8729 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E99286C2AA5E787002D8729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E99286F2AA5E787002D8729 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E9928762AA5E7D9002D8729 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
+		8E9928792AA5E84E002D8729 /* DownloadIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadIcon.swift; sourceTree = "<group>"; };
+		8E99287B2AA5E873002D8729 /* ArrowInCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowInCircleView.swift; sourceTree = "<group>"; };
+		8E99287D2AA5E898002D8729 /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
+		8E99287F2AA5E8AC002D8729 /* DownloadWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWarningView.swift; sourceTree = "<group>"; };
+		8E9928812AA5E8C0002D8729 /* SpinningCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningCircleView.swift; sourceTree = "<group>"; };
+		8E9928842AA5E90C002D8729 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		8E9928862AA5E929002D8729 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		8E9928882AA5E93C002D8729 /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		8E99288B2AA5E96E002D8729 /* DownloadProgressDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadProgressDisplayable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				8E9928682AA5E781002D8729 /* reusable_buttons_swiftUIApp.swift */,
-				8E99286A2AA5E781002D8729 /* ContentView.swift */,
+				8E9928782AA5E821002D8729 /* Main Flow */,
+				8E9928832AA5E8D8002D8729 /* Download Icon */,
+				8E99288A2AA5E948002D8729 /* Extensions */,
+				8E99288D2AA5E9A5002D8729 /* Models */,
 				8E99286C2AA5E787002D8729 /* Assets.xcassets */,
 				8E99286E2AA5E787002D8729 /* Preview Content */,
 			);
@@ -65,6 +88,45 @@
 				8E99286F2AA5E787002D8729 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E9928782AA5E821002D8729 /* Main Flow */ = {
+			isa = PBXGroup;
+			children = (
+				8E99286A2AA5E781002D8729 /* ContentView.swift */,
+				8E9928762AA5E7D9002D8729 /* MainButtonView.swift */,
+			);
+			path = "Main Flow";
+			sourceTree = "<group>";
+		};
+		8E9928832AA5E8D8002D8729 /* Download Icon */ = {
+			isa = PBXGroup;
+			children = (
+				8E9928792AA5E84E002D8729 /* DownloadIcon.swift */,
+				8E99287B2AA5E873002D8729 /* ArrowInCircleView.swift */,
+				8E9928812AA5E8C0002D8729 /* SpinningCircleView.swift */,
+				8E99287D2AA5E898002D8729 /* CircleProgressBar.swift */,
+				8E99287F2AA5E8AC002D8729 /* DownloadWarningView.swift */,
+			);
+			path = "Download Icon";
+			sourceTree = "<group>";
+		};
+		8E99288A2AA5E948002D8729 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E9928842AA5E90C002D8729 /* Color+Extension.swift */,
+				8E9928862AA5E929002D8729 /* Image+Extensions.swift */,
+				8E9928882AA5E93C002D8729 /* Font+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8E99288D2AA5E9A5002D8729 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E99288B2AA5E96E002D8729 /* DownloadProgressDisplayable.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E99287E2AA5E898002D8729 /* CircleProgressBar.swift in Sources */,
+				8E9928872AA5E929002D8729 /* Image+Extensions.swift in Sources */,
+				8E9928852AA5E90C002D8729 /* Color+Extension.swift in Sources */,
+				8E99287C2AA5E873002D8729 /* ArrowInCircleView.swift in Sources */,
+				8E9928772AA5E7D9002D8729 /* MainButtonView.swift in Sources */,
+				8E99288C2AA5E96E002D8729 /* DownloadProgressDisplayable.swift in Sources */,
+				8E9928802AA5E8AC002D8729 /* DownloadWarningView.swift in Sources */,
 				8E99286B2AA5E781002D8729 /* ContentView.swift in Sources */,
+				8E99287A2AA5E84E002D8729 /* DownloadIcon.swift in Sources */,
+				8E9928822AA5E8C0002D8729 /* SpinningCircleView.swift in Sources */,
 				8E9928692AA5E781002D8729 /* reusable_buttons_swiftUIApp.swift in Sources */,
+				8E9928892AA5E93C002D8729 /* Font+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
